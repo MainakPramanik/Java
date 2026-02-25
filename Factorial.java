@@ -7,7 +7,7 @@ public class Factorial {
         number = n;
     }
     
-    public long calculateFactorial() {
+    public int calculateFactorial() {
         int fact = 1;
         for (int i = 1; i <= number; i++) {
             fact *= i;
